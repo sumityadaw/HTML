@@ -1,0 +1,191 @@
+
+<html>
+    <head>
+        <title>index</title>
+          <style>
+            body{
+                margin:0px;
+                background: peru;
+            }
+            #head{
+                width:100%;
+                height:80px;
+                border:1px solid aqua;
+                background: aqua;
+            }
+            #body{
+                width:100%;
+                height:450px;
+                border:1px solid white;
+                background: url(bank.webp);
+                background-size: 1008px 450px;
+                background-repeat: no-repeat;
+            }
+            #footer{
+                width:100%;
+                height:100px;
+                border:1px solid lightslategrey;
+                background: lightslategrey;
+            }
+            #right{
+                width:54%;
+                height:60px;
+                border:1px solid mediumseagreen;
+                float: right;  
+                margin-top: 10px;
+                background: mediumseagreen;
+            }
+            #left{
+                width:45%;
+                height:60px;
+                border:1px solid yellowgreen;    
+               margin-top: 10px;
+               background: yellowgreen;
+            }
+            ul li{
+                float:left;
+                width:120px;
+                list-style: none;
+                font-size: 25px;
+                color: #660099;
+            }
+            
+            </style>
+            
+    </head>
+    <body>
+        <div id="head">
+            <div id="right">
+        	<ul>
+     <li><a href="index.html" style="color:red;">Home</a></li>
+     <li><a href="Student.jsp">Student</a></li>
+     <li><a href="Faculty.jsp">Faculty</a></li>
+     <li><a href="Admin.jsp">Admin</a></li>
+        </ul>
+                
+            </div>
+            <div id="left">
+                <h1 style="margin:0px;">Attendance Management System</h1>
+            </div>
+            
+        </div>
+        <div id="body">
+          
+        </div>
+         <div id="footer">
+             <h3>Designed By Aurora @CopyRight 2023 Batch</h3>
+             
+         </div>
+          
+          
+    </body>
+</html>
+
+<%-- 
+    Document   : Student
+    Created on : 8 Feb, 2023, 3:13:33 PM
+    Author     : GKV
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin:0px;
+                background: peru;
+            }
+            #head{
+                width:100%;
+                height:80px;
+                border:1px solid aqua;
+                background: aqua;
+            }
+            #body{
+                width:100%;
+                height:450px;
+                border:1px solid white;
+                background: url(bank.webp);
+                background-size: 1008px 450px;
+                background-repeat: no-repeat;
+            }
+            #footer{
+                width:100%;
+                height:100px;
+                border:1px solid lightslategrey;
+                background: lightslategrey;
+            }
+            #right{
+                width:54%;
+                height:60px;
+                border:1px solid mediumseagreen;
+                float: right;  
+                margin-top: 10px;
+                background: mediumseagreen;
+            }
+            #left{
+                width:45%;
+                height:60px;
+                border:1px solid yellowgreen;    
+               margin-top: 10px;
+               background: yellowgreen;
+            }
+            ul li{
+                float:left;
+                width:120px;
+                list-style: none;
+                font-size: 25px;
+                color: #660099;
+            }
+            #bd{
+                width:500px;
+                height:400px;
+                border:1px solid black;
+                background: #ccff66;
+              
+            }
+            </style>
+            
+    </head>
+    <body>
+        <div id="head">
+            <div id="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Student.jsp" style="color:red;">Student</a></li>
+                    <li><a href="Faculty.jsp">Faculty</a></li>
+                    <li><a href="Admin.jsp">Admin</a></li>
+                </ul>
+                
+            </div>
+            <div id="left">
+                <h1 style="margin:0px;">Attendance Management System</h1>
+            </div>
+            
+        </div>
+        <div id="body">
+            <center>
+            <div id="bd">
+                <h2><u>Register LOGIN</u></h2>
+                <table>
+                    <tr><th>RollNo: </th><td><input type="text" name="rollno" maxlength="10" requried></td></tr>
+                    <tr><th>Password: </th><td><input type="password" name="password" requried ></td></tr>
+              <tr><th> </th><td><input type="submit" value="Login" >
+                  <input type="reset" value="Reset" ></td></tr>
+              <tr><th> </th><td>Don't Have An Account ? <a href='StudentReg.jsp'>Register</a></td></tr>
+             
+                </table>
+            </div>
+            </center>
+        </div>
+         <div id="footer">
+             <h3>Designed By Aurora @CopyRight 2023 Batch</h3>
+             
+         </div>
+          
+          
+    </body>
+</html>
